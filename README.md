@@ -10,19 +10,25 @@ Este repositório contém **testes automatizados de API REST** para a aplicaçã
 - **Mochawesome** – Relatórios de testes (HTML/JUnit)
 - **Dotenv** – Gerenciamento de variáveis de ambiente
 
-📂 test-banco-api
- ┣ 📂 support
- ┃ ┗ 📂 credentials
- ┃    ┗ 📂 hml              # Massa de dados de login para HML
- ┃    ┗ 📂 prod             # Massa de dados de login para PROD
- ┣ 📂 helpers
- ┃ ┗ 📜 autenticacao.js     # Função que realiza chamadas com autenticação
- ┣ 📂 test
- ┃ ┗ 📜 login.test.js       # Casos de teste do endpoint /login
- ┣ 📜 package.json
- ┣ 📜 .gitignore
- ┗ 📜 README.md
+## 📁 Estrutura do Projeto
 
+```
+📂 test-banco-api
+ ├── 📂 support
+ │   └── 📂 credentials
+ │       ├── 📂 hml   # Massa de dados de login para HML
+ │       └── 📂 prod  # Massa de dados de login para PROD
+ │
+ ├── 📂 helpers
+ │   └── 📜 autenticacao.js   # Função que realiza chamadas com autenticação
+ │
+ ├── 📂 test
+ │   └── 📜 login.test.js     # Casos de teste do endpoint /login
+ │
+ ├── 📜 package.json
+ ├── 📜 .gitignore
+ └── 📜 README.md
+```
 
 ## ✅ Cenários de Teste Implementados
 - **Login deve retornar status code 200 e gerar tokens** (`login.test.js`)
