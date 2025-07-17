@@ -1,3 +1,4 @@
 node_modules/
 /support/credentials/hml/login.json
 /support/credentials/prod/login.json
+mochawesome-report/
