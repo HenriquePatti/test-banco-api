@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:hml": "NODE_ENV=development mocha --require dotenv/config",
+    "test:prod": "NODE_ENV=production mocha --require dotenv/config"
   },
   "keywords": [],
   "author": "",
