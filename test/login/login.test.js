@@ -1,6 +1,6 @@
 const { expect } = require("chai");
-const loginData = require("../support/credentials/hml/login.json");
-const { makeRequest } = require("../helpers/autenticacao.js");
+const loginData = require("../../support/credentials/hml/login.json");
+const { makeRequest } = require("../../helpers/autenticacao.js");
 
 describe("Login", () => {
   const bodyLogin = { ...loginData };
